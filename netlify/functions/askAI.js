@@ -10,7 +10,7 @@ exports.handler = async function (event, context) {
     const requestBody = {
         "contents": [{ "parts": [{ "text": question }] }],
         "systemInstruction": {
-            "parts": [{ "text": "You are my DSA instuctor. If i ask any questions other than DSA,reply me rudely." }]
+            "parts": [{ "text": "You are my DSA instuctor. If i ask any questions other than DSA,reply them gently to ask ony related to DSA.If they ask any code to verify you can verify and give them error less code" }]
         }
     };
 
